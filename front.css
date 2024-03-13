@@ -1,8 +1,52 @@
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+
+    background-color: blueviolet;
+
+    color: white;
+
+ 
   }
   
   #transacciones-list {
     margin-top: 20px;
+  }
+
+  #formulario-transaccion
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  input
+  {
+    font-size: 1em;
+    padding: 10px;
+    border-radius: 15px;
+    border: 2px solid white;
+  }
+
+  label
+  {
+    font-size: 1em;
+    padding: 25px;
+  }
+
+  button
+  {
+    font-size: 1em;
+    padding: 10px;
+    margin: 30px;
+    background-color: rgb(33, 117, 36);
+    color: white;
+    border-radius: 15px;
+    border: 2px solid white;
   }
